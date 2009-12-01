@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		7640A35E0F18A12F00205190 /* robo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7640A35D0F18A12F00205190 /* robo.icns */; };
+		7640A36E0F18A37700205190 /* document.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7640A36D0F18A37700205190 /* document.icns */; };
+		7650E5320F18B4300004C41E /* LED.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650E5310F18B4300004C41E /* LED.m */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		AC025AB00F1A3D1F00E7CC3A /* interactief.tif in Resources */ = {isa = PBXBuildFile; fileRef = AC025AAF0F1A3D1F00E7CC3A /* interactief.tif */; };
+		AC66A83D0F1A07C6009FB190 /* schakelaar.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66A83C0F1A07C6009FB190 /* schakelaar.m */; };
+		F513DAC90F180C7D0021C708 /* ic.tif in Resources */ = {isa = PBXBuildFile; fileRef = F513DAC70F180C7D0021C708 /* ic.tif */; };
+		F513DACA0F180C7D0021C708 /* poort.tif in Resources */ = {isa = PBXBuildFile; fileRef = F513DAC80F180C7D0021C708 /* poort.tif */; };
+		F5289CDC0F16C78B00B37530 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F5289CDB0F16C78B00B37530 /* MyDocument.m */; };
+		F53016C90F16B3DA004C4BB0 /* displayPart.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016A00F16B3DA004C4BB0 /* displayPart.m */; };
+		F53016CA0F16B3DA004C4BB0 /* IC.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016A20F16B3DA004C4BB0 /* IC.m */; };
+		F53016CB0F16B3DA004C4BB0 /* connection.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016A50F16B3DA004C4BB0 /* connection.m */; };
+		F53016CC0F16B3DA004C4BB0 /* D5082-7651.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016A70F16B3DA004C4BB0 /* D5082-7651.m */; };
+		F53016CD0F16B3DA004C4BB0 /* EN.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016A90F16B3DA004C4BB0 /* EN.m */; };
+		F53016CE0F16B3DA004C4BB0 /* invertor.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016AB0F16B3DA004C4BB0 /* invertor.m */; };
+		F53016CF0F16B3DA004C4BB0 /* NEN.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016AD0F16B3DA004C4BB0 /* NEN.m */; };
+		F53016D00F16B3DA004C4BB0 /* NOR.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016AF0F16B3DA004C4BB0 /* NOR.m */; };
+		F53016D10F16B3DA004C4BB0 /* OR.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016B10F16B3DA004C4BB0 /* OR.m */; };
+		F53016D20F16B3DA004C4BB0 /* pulsenGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016B30F16B3DA004C4BB0 /* pulsenGenerator.m */; };
+		F53016D30F16B3DA004C4BB0 /* SN7400.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016B50F16B3DA004C4BB0 /* SN7400.m */; };
+		F53016D40F16B3DA004C4BB0 /* SN74247.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016B70F16B3DA004C4BB0 /* SN74247.m */; };
+		F53016D50F16B3DA004C4BB0 /* SN7490.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016B90F16B3DA004C4BB0 /* SN7490.m */; };
+		F53016D60F16B3DA004C4BB0 /* voltage.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016BB0F16B3DA004C4BB0 /* voltage.m */; };
+		F53016D70F16B3DA004C4BB0 /* XOR.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016BD0F16B3DA004C4BB0 /* XOR.m */; };
+		F53016DA0F16B3DA004C4BB0 /* port.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016C20F16B3DA004C4BB0 /* port.m */; };
+		F53016DB0F16B3DA004C4BB0 /* roboController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016C40F16B3DA004C4BB0 /* roboController.m */; };
+		F53016DC0F16B3DA004C4BB0 /* roboObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016C60F16B3DA004C4BB0 /* roboObject.m */; };
+		F53016DD0F16B3DA004C4BB0 /* roboView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53016C80F16B3DA004C4BB0 /* roboView.m */; };
+		F5B70E0F0F1E91650068A149 /* coincidentie.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B70E0E0F1E91650068A149 /* coincidentie.m */; };
+		F5C38A960F18CE9F009531F7 /* led.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5C38A940F18CE9F009531F7 /* led.tif */; };
+		F5C38A970F18CE9F009531F7 /* spoort.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5C38A950F18CE9F009531F7 /* spoort.tif */; };
+		F5DE6A440F178A4100200F1A /* roboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DE6A430F178A4100200F1A /* roboCell.m */; };
+		F5DE6A470F178A4D00200F1A /* roboTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DE6A460F178A4D00200F1A /* roboTable.m */; };
+		F5DE6A720F178C9F00200F1A /* NSColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DE6A700F178C9F00200F1A /* NSColorAdditions.m */; };
+		F5DE6AE90F17912E00200F1A /* example.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5DE6AE80F17912E00200F1A /* example.tif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* Robo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robo_Prefix.pch; sourceTree = "<group>"; };
+		7640A35D0F18A12F00205190 /* robo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = robo.icns; sourceTree = "<group>"; };
+		7640A36D0F18A37700205190 /* document.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = document.icns; sourceTree = "<group>"; };
+		7650E5300F18B4300004C41E /* LED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LED.h; sourceTree = "<group>"; };
+		7650E5310F18B4300004C41E /* LED.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LED.m; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Robo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC025AAF0F1A3D1F00E7CC3A /* interactief.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = interactief.tif; sourceTree = "<group>"; };
+		AC66A83B0F1A07C6009FB190 /* schakelaar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schakelaar.h; sourceTree = "<group>"; };
+		AC66A83C0F1A07C6009FB190 /* schakelaar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = schakelaar.m; sourceTree = "<group>"; };
+		F513DAC70F180C7D0021C708 /* ic.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ic.tif; sourceTree = "<group>"; };
+		F513DAC80F180C7D0021C708 /* poort.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = poort.tif; sourceTree = "<group>"; };
+		F5289CDB0F16C78B00B37530 /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		F530169F0F16B3DA004C4BB0 /* displayPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = displayPart.h; sourceTree = "<group>"; };
+		F53016A00F16B3DA004C4BB0 /* displayPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = displayPart.m; sourceTree = "<group>"; };
+		F53016A10F16B3DA004C4BB0 /* IC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IC.h; sourceTree = "<group>"; };
+		F53016A20F16B3DA004C4BB0 /* IC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IC.m; sourceTree = "<group>"; };
+		F53016A40F16B3DA004C4BB0 /* connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connection.h; path = ICs/connection.h; sourceTree = "<group>"; };
+		F53016A50F16B3DA004C4BB0 /* connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = connection.m; path = ICs/connection.m; sourceTree = "<group>"; };
+		F53016A60F16B3DA004C4BB0 /* D5082-7651.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "D5082-7651.h"; sourceTree = "<group>"; };
+		F53016A70F16B3DA004C4BB0 /* D5082-7651.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "D5082-7651.m"; sourceTree = "<group>"; };
+		F53016A80F16B3DA004C4BB0 /* EN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EN.h; sourceTree = "<group>"; };
+		F53016A90F16B3DA004C4BB0 /* EN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EN.m; sourceTree = "<group>"; };
+		F53016AA0F16B3DA004C4BB0 /* invertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = invertor.h; sourceTree = "<group>"; };
+		F53016AB0F16B3DA004C4BB0 /* invertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = invertor.m; sourceTree = "<group>"; };
+		F53016AC0F16B3DA004C4BB0 /* NEN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEN.h; sourceTree = "<group>"; };
+		F53016AD0F16B3DA004C4BB0 /* NEN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEN.m; sourceTree = "<group>"; };
+		F53016AE0F16B3DA004C4BB0 /* NOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOR.h; sourceTree = "<group>"; };
+		F53016AF0F16B3DA004C4BB0 /* NOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOR.m; sourceTree = "<group>"; };
+		F53016B00F16B3DA004C4BB0 /* OR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OR.h; sourceTree = "<group>"; };
+		F53016B10F16B3DA004C4BB0 /* OR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OR.m; sourceTree = "<group>"; };
+		F53016B20F16B3DA004C4BB0 /* pulsenGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pulsenGenerator.h; sourceTree = "<group>"; };
+		F53016B30F16B3DA004C4BB0 /* pulsenGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pulsenGenerator.m; sourceTree = "<group>"; };
+		F53016B40F16B3DA004C4BB0 /* SN7400.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SN7400.h; sourceTree = "<group>"; };
+		F53016B50F16B3DA004C4BB0 /* SN7400.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SN7400.m; sourceTree = "<group>"; };
+		F53016B60F16B3DA004C4BB0 /* SN74247.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SN74247.h; sourceTree = "<group>"; };
+		F53016B70F16B3DA004C4BB0 /* SN74247.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SN74247.m; sourceTree = "<group>"; };
+		F53016B80F16B3DA004C4BB0 /* SN7490.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SN7490.h; sourceTree = "<group>"; };
+		F53016B90F16B3DA004C4BB0 /* SN7490.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SN7490.m; sourceTree = "<group>"; };
+		F53016BA0F16B3DA004C4BB0 /* voltage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voltage.h; sourceTree = "<group>"; };
+		F53016BB0F16B3DA004C4BB0 /* voltage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voltage.m; sourceTree = "<group>"; };
+		F53016BC0F16B3DA004C4BB0 /* XOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XOR.h; sourceTree = "<group>"; };
+		F53016BD0F16B3DA004C4BB0 /* XOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XOR.m; sourceTree = "<group>"; };
+		F53016BF0F16B3DA004C4BB0 /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		F53016C10F16B3DA004C4BB0 /* port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = port.h; sourceTree = "<group>"; };
+		F53016C20F16B3DA004C4BB0 /* port.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = port.m; sourceTree = "<group>"; };
+		F53016C30F16B3DA004C4BB0 /* roboController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roboController.h; sourceTree = "<group>"; };
+		F53016C40F16B3DA004C4BB0 /* roboController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roboController.m; sourceTree = "<group>"; };
+		F53016C50F16B3DA004C4BB0 /* roboObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roboObject.h; sourceTree = "<group>"; };
+		F53016C60F16B3DA004C4BB0 /* roboObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roboObject.m; sourceTree = "<group>"; };
+		F53016C70F16B3DA004C4BB0 /* roboView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roboView.h; sourceTree = "<group>"; };
+		F53016C80F16B3DA004C4BB0 /* roboView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roboView.m; sourceTree = "<group>"; };
+		F5B70E0D0F1E91650068A149 /* coincidentie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coincidentie.h; sourceTree = "<group>"; };
+		F5B70E0E0F1E91650068A149 /* coincidentie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coincidentie.m; sourceTree = "<group>"; };
+		F5C38A940F18CE9F009531F7 /* led.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = led.tif; sourceTree = "<group>"; };
+		F5C38A950F18CE9F009531F7 /* spoort.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = spoort.tif; sourceTree = "<group>"; };
+		F5DE6A420F178A4100200F1A /* roboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roboCell.h; sourceTree = "<group>"; };
+		F5DE6A430F178A4100200F1A /* roboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roboCell.m; sourceTree = "<group>"; };
+		F5DE6A450F178A4D00200F1A /* roboTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roboTable.h; sourceTree = "<group>"; };
+		F5DE6A460F178A4D00200F1A /* roboTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roboTable.m; sourceTree = "<group>"; };
+		F5DE6A6F0F178C9F00200F1A /* NSColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSColorAdditions.h; path = additions/NSColorAdditions.h; sourceTree = "<group>"; };
+		F5DE6A700F178C9F00200F1A /* NSColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColorAdditions.m; path = additions/NSColorAdditions.m; sourceTree = "<group>"; };
+		F5DE6AE80F17912E00200F1A /* example.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = example.tif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Robo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Robo */ = {
+			isa = PBXGroup;
+			children = (
+				F530169E0F16B3DA004C4BB0 /* classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = Robo;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* Robo_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC025AAF0F1A3D1F00E7CC3A /* interactief.tif */,
+				F5C38A940F18CE9F009531F7 /* led.tif */,
+				F5C38A950F18CE9F009531F7 /* spoort.tif */,
+				7640A36D0F18A37700205190 /* document.icns */,
+				F513DAC70F180C7D0021C708 /* ic.tif */,
+				F513DAC80F180C7D0021C708 /* poort.tif */,
+				7640A35D0F18A12F00205190 /* robo.icns */,
+				F5DE6AE80F17912E00200F1A /* example.tif */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F530169E0F16B3DA004C4BB0 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE6A410F178A3500200F1A /* table */,
+				F53016C30F16B3DA004C4BB0 /* roboController.h */,
+				F53016C40F16B3DA004C4BB0 /* roboController.m */,
+				F5DE69E70F17823D00200F1A /* base */,
+				F53016A30F16B3DA004C4BB0 /* ic */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		F53016A30F16B3DA004C4BB0 /* ic */ = {
+			isa = PBXGroup;
+			children = (
+				F53016A60F16B3DA004C4BB0 /* D5082-7651.h */,
+				F53016A70F16B3DA004C4BB0 /* D5082-7651.m */,
+				F53016A80F16B3DA004C4BB0 /* EN.h */,
+				F53016A90F16B3DA004C4BB0 /* EN.m */,
+				F53016AA0F16B3DA004C4BB0 /* invertor.h */,
+				F53016AB0F16B3DA004C4BB0 /* invertor.m */,
+				7650E5300F18B4300004C41E /* LED.h */,
+				7650E5310F18B4300004C41E /* LED.m */,
+				F53016AC0F16B3DA004C4BB0 /* NEN.h */,
+				F53016AD0F16B3DA004C4BB0 /* NEN.m */,
+				F53016AE0F16B3DA004C4BB0 /* NOR.h */,
+				F53016AF0F16B3DA004C4BB0 /* NOR.m */,
+				F53016B00F16B3DA004C4BB0 /* OR.h */,
+				F53016B10F16B3DA004C4BB0 /* OR.m */,
+				F53016B20F16B3DA004C4BB0 /* pulsenGenerator.h */,
+				F53016B30F16B3DA004C4BB0 /* pulsenGenerator.m */,
+				F53016B40F16B3DA004C4BB0 /* SN7400.h */,
+				F53016B50F16B3DA004C4BB0 /* SN7400.m */,
+				F53016B60F16B3DA004C4BB0 /* SN74247.h */,
+				F53016B70F16B3DA004C4BB0 /* SN74247.m */,
+				F53016B80F16B3DA004C4BB0 /* SN7490.h */,
+				F53016B90F16B3DA004C4BB0 /* SN7490.m */,
+				F53016BA0F16B3DA004C4BB0 /* voltage.h */,
+				F53016BB0F16B3DA004C4BB0 /* voltage.m */,
+				F53016BC0F16B3DA004C4BB0 /* XOR.h */,
+				F53016BD0F16B3DA004C4BB0 /* XOR.m */,
+				AC66A83B0F1A07C6009FB190 /* schakelaar.h */,
+				AC66A83C0F1A07C6009FB190 /* schakelaar.m */,
+				F5B70E0D0F1E91650068A149 /* coincidentie.h */,
+				F5B70E0E0F1E91650068A149 /* coincidentie.m */,
+			);
+			name = ic;
+			path = ICs;
+			sourceTree = "<group>";
+		};
+		F5DE69E70F17823D00200F1A /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F53016A40F16B3DA004C4BB0 /* connection.h */,
+				F53016A50F16B3DA004C4BB0 /* connection.m */,
+				F530169F0F16B3DA004C4BB0 /* displayPart.h */,
+				F53016A00F16B3DA004C4BB0 /* displayPart.m */,
+				F53016A10F16B3DA004C4BB0 /* IC.h */,
+				F53016A20F16B3DA004C4BB0 /* IC.m */,
+				F53016BF0F16B3DA004C4BB0 /* MyDocument.h */,
+				F5289CDB0F16C78B00B37530 /* MyDocument.m */,
+				F53016C10F16B3DA004C4BB0 /* port.h */,
+				F53016C20F16B3DA004C4BB0 /* port.m */,
+				F53016C50F16B3DA004C4BB0 /* roboObject.h */,
+				F53016C60F16B3DA004C4BB0 /* roboObject.m */,
+				F53016C70F16B3DA004C4BB0 /* roboView.h */,
+				F53016C80F16B3DA004C4BB0 /* roboView.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		F5DE6A410F178A3500200F1A /* table */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE6A6F0F178C9F00200F1A /* NSColorAdditions.h */,
+				F5DE6A700F178C9F00200F1A /* NSColorAdditions.m */,
+				F5DE6A420F178A4100200F1A /* roboCell.h */,
+				F5DE6A430F178A4100200F1A /* roboCell.m */,
+				F5DE6A450F178A4D00200F1A /* roboTable.h */,
+				F5DE6A460F178A4D00200F1A /* roboTable.m */,
+			);
+			name = table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Robo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Robo" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Robo;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Robo;
+			productReference = 8D15AC370486D014006FF6A4 /* Robo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Robo" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Robo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Robo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				F5DE6AE90F17912E00200F1A /* example.tif in Resources */,
+				F513DAC90F180C7D0021C708 /* ic.tif in Resources */,
+				F513DACA0F180C7D0021C708 /* poort.tif in Resources */,
+				7640A35E0F18A12F00205190 /* robo.icns in Resources */,
+				7640A36E0F18A37700205190 /* document.icns in Resources */,
+				F5C38A960F18CE9F009531F7 /* led.tif in Resources */,
+				F5C38A970F18CE9F009531F7 /* spoort.tif in Resources */,
+				AC025AB00F1A3D1F00E7CC3A /* interactief.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				F53016C90F16B3DA004C4BB0 /* displayPart.m in Sources */,
+				F53016CA0F16B3DA004C4BB0 /* IC.m in Sources */,
+				F53016CB0F16B3DA004C4BB0 /* connection.m in Sources */,
+				F53016CC0F16B3DA004C4BB0 /* D5082-7651.m in Sources */,
+				F53016CD0F16B3DA004C4BB0 /* EN.m in Sources */,
+				F53016CE0F16B3DA004C4BB0 /* invertor.m in Sources */,
+				F53016CF0F16B3DA004C4BB0 /* NEN.m in Sources */,
+				F53016D00F16B3DA004C4BB0 /* NOR.m in Sources */,
+				F53016D10F16B3DA004C4BB0 /* OR.m in Sources */,
+				F53016D20F16B3DA004C4BB0 /* pulsenGenerator.m in Sources */,
+				F53016D30F16B3DA004C4BB0 /* SN7400.m in Sources */,
+				F53016D40F16B3DA004C4BB0 /* SN74247.m in Sources */,
+				F53016D50F16B3DA004C4BB0 /* SN7490.m in Sources */,
+				F53016D60F16B3DA004C4BB0 /* voltage.m in Sources */,
+				F53016D70F16B3DA004C4BB0 /* XOR.m in Sources */,
+				F53016DA0F16B3DA004C4BB0 /* port.m in Sources */,
+				F53016DB0F16B3DA004C4BB0 /* roboController.m in Sources */,
+				F53016DC0F16B3DA004C4BB0 /* roboObject.m in Sources */,
+				F53016DD0F16B3DA004C4BB0 /* roboView.m in Sources */,
+				F5289CDC0F16C78B00B37530 /* MyDocument.m in Sources */,
+				F5DE6A440F178A4100200F1A /* roboCell.m in Sources */,
+				F5DE6A470F178A4D00200F1A /* roboTable.m in Sources */,
+				F5DE6A720F178C9F00200F1A /* NSColorAdditions.m in Sources */,
+				7650E5320F18B4300004C41E /* LED.m in Sources */,
+				AC66A83D0F1A07C6009FB190 /* schakelaar.m in Sources */,
+				F5B70E0F0F1E91650068A149 /* coincidentie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Robo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Robo;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Robo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Robo;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Robo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Robo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
